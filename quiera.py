@@ -70,4 +70,5 @@ api.add_resource(PostResource, '/posts/<int:post_id>')
 api.add_resource(PostListResource, '/posts')
 
 if __name__ == '__main__':
+
         app.run(debug=True, host='0.0.0.0')
